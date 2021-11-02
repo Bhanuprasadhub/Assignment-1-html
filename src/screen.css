@@ -1,11 +1,11 @@
-
-.one,.two{             
-width:100%;                                                           
-display:inline-flex;
-}                          
-.block1,.block2,.block3,.block4 {                          
-width:50%; 
-}                    
-.block1{                                        
-vertical-align:top;
-}
+html,body 
+ {
+    padding:0;
+    margin:0;
+    height:100%;
+  }
+div {position: fixed;width: 50%;height: 50%;}
+.part1 {color: blue;top:0; left:0}
+.part2 { top:0; left:50%}
+.part3 { top:50%; left:0}    
+.part4 {color: blue;top:50%; left:50%}
